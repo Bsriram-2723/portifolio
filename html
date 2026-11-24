@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> BANDARU SRIRAM | Web Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="#home" class="logo">SRIRAM.dev</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <p class="greeting">Hi, my name is</p>
+    <h1>BANDARU SRIRAM.</h1>
+    <p class="bio">I'm a full-stack web developer specializing in building clean, accessible, and responsive web applications.</p>
+    <a href="#projects" class="btn">View My Work</a>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p class="about-text">
+      I enjoy turning complex problems into simple, intuitive interfaces. With experience in modern frontend frameworks and backend APIs, I focus on writing clean code and delivering fast user experiences.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Featured Projects</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>TaskFlow App</h3>
+        <p>A collaborative project management dashboard with real-time task updates and team filtering.</p>
+        <div class="tags">
+          <span class="tag">HTML/CSS</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">REST API</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>WeatherPulse</h3>
+        <p>Location-based weather forecasting tool featuring 7-day interactive charts and air quality metrics.</p>
+        <div class="tags">
+          <span class="tag">JavaScript</span>
+          <span class="tag">Fetch API</span>
+          <span class="tag">CSS Grid</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>DevBlog CMS</h3>
+        <p>A lightweight Markdown blogging platform built for developers with syntax highlighting and dark mode.</p>
+        <div class="tags">
+          <span class="tag">Node.js</span>
+          <span class="tag">Markdown</span>
+          <span class="tag">Responsive</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-list">
+      <div class="skill-item">HTML5 & CSS3</div>
+      <div class="skill-item">JavaScript (ES6+)</div>
+      <div class="skill-item">React</div>
+      <div class="skill-item">Node.js</div>
+      <div class="skill-item">Git & GitHub</div>
+      <div class="skill-item">Responsive Design</div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Get In Touch</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 BANDARU SRIRAM. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
